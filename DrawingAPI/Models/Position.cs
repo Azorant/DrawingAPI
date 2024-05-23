@@ -10,6 +10,8 @@ public class TextPosition : Position
 {
     public string? Vertical { get; set; }
     public string? Horizontal { get; set; }
+    public string? CalculateX { get; set; }
+    public string? CalculateY { get; set; }
 }
 
 public class ShapePosition : Position
